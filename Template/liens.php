@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liens</title>
+    <title><?=$title?></title>
     <link rel="stylesheet" href="../Public/CSS/style.css" />
 </head>
 <body>
 <header><?php include('../Template/inc/bannière.php'); ?></header>
-<?php include('../Template/inc/menu.php'); ?>
+<nav><?php include('../Template/inc/menu.php'); ?></nav>
 <div class="accueil">
     <h2>Quelques liens vers nos partenaires</h2>
     <img class="liens" src="../Public/CSS/images/liens.jpg" alt="Liens">

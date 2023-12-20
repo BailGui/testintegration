@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="../Public/CSS/style.css" />
+    <title><?= $title ?></title>
+    <link rel="stylesheet" href="../Public/CSS/style.css">
 </head>
 <body>
 <header><?php include('../Template/inc/bannière.php'); ?></header>
-<?php include('../Template/inc/menu.php'); ?>
+<nav><?php include('../Template/inc/menu.php'); ?></nav>
   <div class="accueil">
     <h2>Bienvenue sur notre site consacré à Sofia</h2>
     <img class="armoiries" src="../Public/CSS/images/armoiries.jpg" alt="Armoiries">
@@ -19,6 +19,15 @@ Ses habitants, les Sofiotes (Sofiiantsi (софиянци) en bulgare), soit 17 
 
 La ville occupe une position géostratégique très importante dans la région, ce qui a largement contribué à son expansion démographique.
 </p>
+
+<p class="link"> Dans ce site, vous trouverez diverses informations, concernant : </p>
+<p class="linkred"><a class="linkred" href="?p=geo">Une brève présentation de Sofia</a><br>
+<a class="linkred" href="?p=hist">Un rappel historique, de sa fondation à aujourd'hui</a><br>
+<a class="linkred" href="?p=cult">Un tour d'horizon en matière d'art et culture</a><br>
+<a class="linkred" href="?p=gal">Une galerie de photographies</a><br>
+<a class="linkred" href="?p=form">Un formulaire pour nous contacter</a><br>
+<a class="linkred" href="?p=link">Des liens vers des sites partenaires</a></p>
+
     
 <p class ="lienwiki">
         Sources:
