@@ -1,0 +1,198 @@
+header{
+height: 655px;
+}
+
+.bannière{
+border-radius: 5px;
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 0;
+}
+
+.sofia{
+background-color: rgba(255, 255, 255, 0.589);
+border-radius: 10px;
+text-align: center;
+position: relative;
+left: 840px;
+bottom: 400px;
+width: 100px;
+padding: 20px;
+font-size: xx-large;
+}
+
+.home {
+background-color:  rgb(172, 171, 171);
+border: 2px solid black;
+border-radius: 5px;
+margin-top: 0;
+margin-left: 15%;
+margin-right: 15%;
+width: 1276px;
+}
+
+.button {
+display: inline-block;
+margin-left: 60px;
+margin-right: 60px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-decoration: none;
+text-align: center;
+}
+
+.accueil{
+background-color: rgb(172, 171, 171);
+border-radius: 5px;
+margin-left: 15%;
+margin-right: 15%;
+width: 1280px;
+
+}
+
+h2 {
+background-color: rgb(175, 2, 2);
+text-align: center;
+color: white;
+margin-top: 3px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+font-style: italic;
+}
+
+.armoiries{
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    left: 480px;
+}
+
+.textaccueil{
+font-weight: bold;
+padding: 20px;
+text-align: justify;
+}
+
+.lienwiki{
+    
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    padding-bottom: 20px;
+}
+
+.geo{
+    margin: 0 auto;
+    position: relative;
+    left: 440px;
+    width: 400px;
+    height: 350px;
+}
+
+.histoire {
+    margin: 0 auto;
+    position: relative;
+    left: 340px;
+    width: 600px;
+    height: 350px;
+
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+p {
+   padding: 20px;
+   text-align: justify;
+}
+
+.culture {
+    margin: 0 auto;
+    position: relative;
+    left: 340px;
+    width: 600px;
+    height: 350px;
+
+}
+
+.hdp{
+width: 30px;
+height: 30px;
+background-color:rgb(175, 2, 2);
+margin-left: 1230px;
+}
+
+.galerie{
+    column-count: 2;
+    margin: 50px;
+    margin-left: 80px;
+    border: 2px solid black;
+    padding: 2px;
+   
+}
+
+.contact {
+    margin: 0 auto;
+    position: relative;
+    left: 340px;
+    width: 600px;
+    height: 150px;
+
+
+}
+
+.pcontact {
+    text-align: center;
+}
+
+label{
+    margin-left: 500px;
+}
+
+.envoyer{
+    margin-left: 500px;
+}
+
+.liens{
+    margin: 0 auto;
+    position: relative;
+    left: 340px;
+    width: 600px;
+    height: 350px;
+
+
+}
+
+.plien{
+    text-align: center;
+    font-weight: bold;
+}
+
+.ville{
+    color:rgb(175, 2, 2);
+    column-count: 3;
+    text-decoration: none;
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+
+.error{
+    margin: 0 auto;
+    position: relative;
+    left: 340px;
+    width: 600px;
+    height: 350px;
+
+}
+
+.perror{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+body{
+    margin: 0;
+}
